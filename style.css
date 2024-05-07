@@ -13,7 +13,7 @@ body{
 }
 
 .container {
-    width: 980px;
+    max-width: 980px;
     margin: auto;
 }
 
@@ -67,7 +67,7 @@ ul.main-menu li a {
 
 
 .flex-col-btn {
-    flex: 0 0 20%;
+    flex: 0 0 auto;
     text-align: right;
 }
 
@@ -171,6 +171,10 @@ a.sing-up-btn {
 
 .card-image-col {
     flex: 0 0 50%;
+}
+
+.img-wrapper img {
+    width: 100%;
 }
 
 
@@ -510,8 +514,7 @@ a.learn-more-btn img {
 
 
 .accordion {
-    width: 954px;
-    margin: 20px;
+    max-width: 954px;
 }
   
   .accordion-item {

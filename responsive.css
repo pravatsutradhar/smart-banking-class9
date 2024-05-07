@@ -1,0 +1,309 @@
+/* Responsive Menu CSS */
+input#check {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero-section-wrapper {
+        padding-bottom: 75px;
+    }
+
+    .hero-flex-container {
+        flex-direction: column;
+    }
+
+    .hero-text-content {
+        text-align: center;
+    }
+
+    .hero-text-content h2 {
+        padding-right: 0;
+    }
+
+    .hero-img-col {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* Hero Area End  */
+
+    .credit-card-wrapper {
+        padding: 100px 0 50px 0;
+    }
+
+    .credit-card-flex-container {
+        flex-direction: column;
+    }
+
+    .card-text-wrpper {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .card-text-wrpper h2 {
+        padding-right: 0;
+        margin-bottom: 15px;
+        font-size: 36px;
+    }
+
+    .card-text-wrpper p {
+        padding-right: 0;
+    }
+
+    /* Card Section End  */
+
+    .balance-wrapper {
+        padding: 50px 0;
+    }
+
+    .balance-flex-container {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .balance-trans-col {
+        margin-bottom: 50px;
+    }
+
+    .same-box {
+        flex-basis: 48%;
+    }
+
+    .same-box h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .balance-text-btn-col {
+        padding-left: 0;
+    }
+
+
+    /* Balance Section End  */
+
+    .chat-wrapper {
+        padding: 50px;
+    }
+
+    .chat-flex-container {
+        flex-direction: column;
+    }
+
+    .chat-text-col {
+        padding-right: 0;
+        margin-bottom: 70px;
+    }
+
+    /* Chat Section End  */
+    .pricing-wrapper {
+        padding: 75px 0;
+    }
+
+    .pricing-title {
+        padding-bottom: 65px;
+    }
+
+    .pricing-table-flex-container {
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .free-plan-wrapper {
+        width: inherit;
+        margin-bottom: 70px;
+    }
+
+    .premium-plan-wrapper {
+        width: 100%;
+    }
+
+    .bg-full-wrapper {
+        margin-top: -150px;
+        margin-bottom: -100px;
+    }
+
+    /* Footer Start  */
+
+    .footer-wrapper {
+        padding: 50px 0;
+    }
+
+    
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    
+
+    .flex-col-logo {
+        flex-grow: 1;
+    }
+
+    
+    .bar label span {
+        display: block;
+        height: 4px;
+        width: 25px;
+        background: blue;
+        margin-bottom: 2px;
+    }
+
+    .flex-col-menu {
+        position: absolute;
+        left: 0;
+        background: #ddd;
+        width: 100%;
+        top: 65px;
+        height: 0;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+
+    ul.main-menu {
+        flex-direction: column;
+    }
+
+    ul.main-menu li a {
+        text-align: left;
+    }
+
+    .bar {
+        margin-right: 20px;
+    }
+
+    #check:checked ~ .flex-col-menu{
+        height: 100vh;
+    }
+
+    /* Header part end  */
+
+    .hero-text-content h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .hero-img-col img {
+        width: 100%;
+        padding: 0 40px;
+        margin-top: 30px;
+    }
+
+    /* Hero Area end  */
+
+    .balance-flex-container {
+        padding: 0;
+    }
+
+    .same-box {
+        height: 135px;
+    }
+
+    .same-box h1 {
+        font-size: 28px;
+    }
+
+    .chart-cont img {
+        width: 100%;
+    }
+
+    .balance-text-btn-content h2 {
+        font-size: 36px;
+    }
+
+    a.learn-more-btn {
+        padding: 8px 25px;
+    }
+
+    /* Balance Section End  */
+
+    .chat-wrapper {
+        padding: 50px 20px;
+    }
+
+    .container.style-rel {
+        padding: 30px 0;
+    }
+
+    .chat-text-col h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    /* Chat Section End  */
+
+    .pricing-table-flex-container {
+        padding: 0;
+    }
+
+    .pricing-title h2 {
+        font-size: 28px;
+    }
+
+    .free-plan-wrapper {
+        padding: 20px;
+    }
+
+    .plan-title h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .amount h2 {
+        margin-bottom: 15px;
+    }
+
+    .amount h2 span {
+        font-size: 50px;
+    }
+
+    .plan-btn a {
+        padding: 8px 30px;
+        font-size: 18px;
+    }
+
+    /* Pricing Section End  */
+
+    .faq-heading h2 {
+        font-size: 28px;
+    }
+
+    .faq-heading {
+        margin-bottom: 60px;
+    }
+
+    .faq-wrapper {
+        padding-bottom: 50px;
+    }
+
+
+    /* Footer Start  */
+
+    .footer-wrapper {
+        padding-bottom: 20px;
+    }
+
+    .footer-flex-container {
+        flex-direction: column;
+    }
+
+    .copy-right-text {
+        margin-bottom: 40px;
+    }
+
+    .footer-menu ul li a {
+        margin-bottom: 25px;
+    }
+
+    
+
+
+
+
+}
